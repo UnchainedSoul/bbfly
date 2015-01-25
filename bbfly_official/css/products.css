@@ -1,0 +1,189 @@
+/* cover area */
+
+.jumbotron {
+   
+    padding-top: 8%;
+    padding-bottom: 90px;
+    margin-bottom: 4%;
+
+    background-image: url("../img/cover_02.png"), url("../img/title_bg.jpg");
+    background-position: center bottom, top left;
+    background-repeat: no-repeat, repeat;
+
+    -webkit-box-shadow: inset 0px 0px 45px -3px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: inset 0px 0px 45px -3px rgba(0, 0, 0, 0.55);
+    box-shadow: inset 0px 0px 45px -3px rgba(0, 0, 0, 0.55);
+}
+
+
+/* side navigation */
+
+.side_nav{
+    margin-top: 5%;
+}
+
+.side_nav > ul {
+
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.side_nav > ul > li > a{
+
+    color: grey;
+    text-decoration: none;
+    
+    border: 1px solid transparent;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.side_nav > ul > .first{
+
+    padding: 15% 8% 8% 0%;
+    margin-top: 5%;
+
+}
+
+.side_nav > ul > .second{
+
+    padding: 3% 8% 3% 0%;
+
+}
+
+.side_nav > ul > .first > a{
+
+    font-size: 1.2em;
+    margin-top: 5%;
+    padding: 5%;
+
+}
+
+.side_nav > ul > .second > a{
+
+    font-size: 1em;
+    padding: 3%;
+
+}
+
+.side_nav > ul > .first > a:hover,
+.side_nav > ul > .second > a:hover,
+.side_nav > ul > .active > a{
+
+     border: 1px solid grey;
+     -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+
+/* products */
+
+.product{
+    margin-top: 3%;
+
+}
+
+
+.product>a{
+     text-decoration: none;
+}
+
+
+
+.product > a > img{
+
+    width: 100%;
+    opacity: 0.85;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.product > a:hover > img{
+
+    opacity: 1;
+
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.product:nth-child(odd) > a:hover > div,
+.product:nth-child(even) > a:hover > div{
+    background-color: #CF5676;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.product:nth-child(odd) > a > div{
+
+    background-color: #8CCCD8;
+    padding-top: 8%;
+    padding-bottom: 8%; 
+    height:100px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.product:nth-child(even) > a > div{
+
+    background-color: grey;
+    padding-top: 8%;
+    padding-bottom: 8%; 
+    height:100px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.product > a > div > h5,
+.product > a > div > h6{
+
+     text-align: center;
+     margin: 0px;
+     padding: 2% 5% 2% 5%;
+     color: white;
+
+}
+
+.product > a > div > h6{
+
+    position: absolute;
+    bottom: 2%;
+    right: 8%;
+    font-size: 1em;
+}
+
+
+/*page*/
+
+.page > ul{
+ 
+    text-align: center;
+    padding-top: 5%;
+}
+
+.page > ul > li {
+    display: inline;
+
+}
+
+.page > ul > li > a{
+
+    color: grey;
+    font-size: 1.2em;
+    
+    text-decoration: none;
+    list-style-type: none;
+
+    padding: 2%;
+}
+
+.page > ul > li > a:hover,
+.page > ul > .active > a{
+
+    background-color: #BBE1E8;
+}
+

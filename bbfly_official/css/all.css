@@ -1,0 +1,98 @@
+body{
+
+	background-image: url("../img/back.png");
+	font-family: 'Roboto Condensed', 微軟正黑體, Arial;
+}
+
+.navbar-default{
+
+	background-color: white;
+	border-radius: 0px;
+	border:0px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	
+	line-height: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: grey;
+	z-index: 10;
+
+	-webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.navbar-default .navbar-nav > li > a::before{
+	
+	position: absolute;
+	content: " ";
+	top: 0px;
+	right: 0px;
+	height: 0%;
+	width: 100%;
+	background-color: #8CCCD8;
+	z-index: -100;
+
+	-webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover::before,
+.navbar-default .navbar-nav > .active > a::before{
+	
+	height: 100%;
+	width: 100%
+
+	-webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a{
+	
+	color: white;
+	-webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+	color: white;
+}
+
+#brand{
+	height:30px;
+}
+
+.navbar-brand{
+	line-height: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+footer{
+
+	margin-top: 4%;
+	padding: 1.3%;
+	background-color: grey;
+
+}
+
+footer > p{
+
+	margin: 0px;
+	text-align: center;
+	color: white;
+	font-size: 0.8em;
+
+}
+
+/*#BBE1E8
+#8CCCD8
+
+#FDE5CC*/
